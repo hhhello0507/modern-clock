@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DEF290F2B85ABFC00AFC51C /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 4DEF290E2B85ABFC00AFC51C /* RealityKitContent */; };
+		4DEF29112B85ABFC00AFC51C /* modern_clockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF29102B85ABFC00AFC51C /* modern_clockApp.swift */; };
+		4DEF29132B85ABFD00AFC51C /* HomeV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF29122B85ABFD00AFC51C /* HomeV.swift */; };
+		4DEF29152B85ABFD00AFC51C /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF29142B85ABFD00AFC51C /* ImmersiveView.swift */; };
+		4DEF29172B85ABFD00AFC51C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DEF29162B85ABFD00AFC51C /* Assets.xcassets */; };
+		4DEF291A2B85ABFD00AFC51C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DEF29192B85ABFD00AFC51C /* Preview Assets.xcassets */; };
+		4DEF29232B85B1BF00AFC51C /* FutureClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF29222B85B1BF00AFC51C /* FutureClock.swift */; };
+		4DEF29252B85B1D500AFC51C /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF29242B85B1D500AFC51C /* Date+Ext.swift */; };
+		4DEF29272B85B37600AFC51C /* ClockType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF29262B85B37600AFC51C /* ClockType.swift */; };
+		4DEF29292B85B56300AFC51C /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF29282B85B56300AFC51C /* View+Ext.swift */; };
+		4DEF292C2B85BD8100AFC51C /* FullClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF292B2B85BD8100AFC51C /* FullClock.swift */; };
+		4DEF292E2B85BED300AFC51C /* HourClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF292D2B85BED300AFC51C /* HourClock.swift */; };
+		4DEF29302B85CBBD00AFC51C /* VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF292F2B85CBBD00AFC51C /* VM.swift */; };
+		4DEF29322B85D2DD00AFC51C /* MinuteClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF29312B85D2DD00AFC51C /* MinuteClock.swift */; };
+		4DEF29342B85D32D00AFC51C /* ModernClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF29332B85D32D00AFC51C /* ModernClock.swift */; };
+		4DEF29362B85D44400AFC51C /* AnalogClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF29352B85D44400AFC51C /* AnalogClock.swift */; };
+		4DEF29382B85D51C00AFC51C /* AdvancedAnalogClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF29372B85D51C00AFC51C /* AdvancedAnalogClock.swift */; };
+		4DEF293B2B85D7AA00AFC51C /* NeedleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF293A2B85D7AA00AFC51C /* NeedleShape.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4DEF29092B85ABFC00AFC51C /* modern-clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "modern-clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DEF290D2B85ABFC00AFC51C /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		4DEF29102B85ABFC00AFC51C /* modern_clockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modern_clockApp.swift; sourceTree = "<group>"; };
+		4DEF29122B85ABFD00AFC51C /* HomeV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeV.swift; sourceTree = "<group>"; };
+		4DEF29142B85ABFD00AFC51C /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		4DEF29162B85ABFD00AFC51C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DEF29192B85ABFD00AFC51C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DEF291B2B85ABFD00AFC51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DEF29222B85B1BF00AFC51C /* FutureClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureClock.swift; sourceTree = "<group>"; };
+		4DEF29242B85B1D500AFC51C /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		4DEF29262B85B37600AFC51C /* ClockType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockType.swift; sourceTree = "<group>"; };
+		4DEF29282B85B56300AFC51C /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
+		4DEF292B2B85BD8100AFC51C /* FullClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullClock.swift; sourceTree = "<group>"; };
+		4DEF292D2B85BED300AFC51C /* HourClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourClock.swift; sourceTree = "<group>"; };
+		4DEF292F2B85CBBD00AFC51C /* VM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VM.swift; sourceTree = "<group>"; };
+		4DEF29312B85D2DD00AFC51C /* MinuteClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinuteClock.swift; sourceTree = "<group>"; };
+		4DEF29332B85D32D00AFC51C /* ModernClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernClock.swift; sourceTree = "<group>"; };
+		4DEF29352B85D44400AFC51C /* AnalogClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalogClock.swift; sourceTree = "<group>"; };
+		4DEF29372B85D51C00AFC51C /* AdvancedAnalogClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedAnalogClock.swift; sourceTree = "<group>"; };
+		4DEF293A2B85D7AA00AFC51C /* NeedleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedleShape.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DEF29062B85ABFC00AFC51C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DEF290F2B85ABFC00AFC51C /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DEF29002B85ABFC00AFC51C = {
+			isa = PBXGroup;
+			children = (
+				4DEF290B2B85ABFC00AFC51C /* modern-clock */,
+				4DEF290C2B85ABFC00AFC51C /* Packages */,
+				4DEF290A2B85ABFC00AFC51C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DEF290A2B85ABFC00AFC51C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DEF29092B85ABFC00AFC51C /* modern-clock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DEF290B2B85ABFC00AFC51C /* modern-clock */ = {
+			isa = PBXGroup;
+			children = (
+				4DEF29392B85D7A400AFC51C /* Shape */,
+				4DEF292A2B85B5BD00AFC51C /* Extension */,
+				4DEF29212B85B1B200AFC51C /* Clocks */,
+				4DEF29102B85ABFC00AFC51C /* modern_clockApp.swift */,
+				4DEF29122B85ABFD00AFC51C /* HomeV.swift */,
+				4DEF29142B85ABFD00AFC51C /* ImmersiveView.swift */,
+				4DEF29162B85ABFD00AFC51C /* Assets.xcassets */,
+				4DEF291B2B85ABFD00AFC51C /* Info.plist */,
+				4DEF29182B85ABFD00AFC51C /* Preview Content */,
+				4DEF292F2B85CBBD00AFC51C /* VM.swift */,
+			);
+			path = "modern-clock";
+			sourceTree = "<group>";
+		};
+		4DEF290C2B85ABFC00AFC51C /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				4DEF290D2B85ABFC00AFC51C /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		4DEF29182B85ABFD00AFC51C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4DEF29192B85ABFD00AFC51C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4DEF29212B85B1B200AFC51C /* Clocks */ = {
+			isa = PBXGroup;
+			children = (
+				4DEF29222B85B1BF00AFC51C /* FutureClock.swift */,
+				4DEF29262B85B37600AFC51C /* ClockType.swift */,
+				4DEF292B2B85BD8100AFC51C /* FullClock.swift */,
+				4DEF292D2B85BED300AFC51C /* HourClock.swift */,
+				4DEF29312B85D2DD00AFC51C /* MinuteClock.swift */,
+				4DEF29332B85D32D00AFC51C /* ModernClock.swift */,
+				4DEF29352B85D44400AFC51C /* AnalogClock.swift */,
+				4DEF29372B85D51C00AFC51C /* AdvancedAnalogClock.swift */,
+			);
+			path = Clocks;
+			sourceTree = "<group>";
+		};
+		4DEF292A2B85B5BD00AFC51C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4DEF29242B85B1D500AFC51C /* Date+Ext.swift */,
+				4DEF29282B85B56300AFC51C /* View+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		4DEF29392B85D7A400AFC51C /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				4DEF293A2B85D7AA00AFC51C /* NeedleShape.swift */,
+			);
+			path = Shape;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DEF29082B85ABFC00AFC51C /* modern-clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DEF291E2B85ABFD00AFC51C /* Build configuration list for PBXNativeTarget "modern-clock" */;
+			buildPhases = (
+				4DEF29052B85ABFC00AFC51C /* Sources */,
+				4DEF29062B85ABFC00AFC51C /* Frameworks */,
+				4DEF29072B85ABFC00AFC51C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "modern-clock";
+			packageProductDependencies = (
+				4DEF290E2B85ABFC00AFC51C /* RealityKitContent */,
+			);
+			productName = "modern-clock";
+			productReference = 4DEF29092B85ABFC00AFC51C /* modern-clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DEF29012B85ABFC00AFC51C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					4DEF29082B85ABFC00AFC51C = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 4DEF29042B85ABFC00AFC51C /* Build configuration list for PBXProject "modern-clock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DEF29002B85ABFC00AFC51C;
+			productRefGroup = 4DEF290A2B85ABFC00AFC51C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DEF29082B85ABFC00AFC51C /* modern-clock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DEF29072B85ABFC00AFC51C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DEF291A2B85ABFD00AFC51C /* Preview Assets.xcassets in Resources */,
+				4DEF29172B85ABFD00AFC51C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DEF29052B85ABFC00AFC51C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DEF29292B85B56300AFC51C /* View+Ext.swift in Sources */,
+				4DEF29382B85D51C00AFC51C /* AdvancedAnalogClock.swift in Sources */,
+				4DEF29302B85CBBD00AFC51C /* VM.swift in Sources */,
+				4DEF292C2B85BD8100AFC51C /* FullClock.swift in Sources */,
+				4DEF29132B85ABFD00AFC51C /* HomeV.swift in Sources */,
+				4DEF29112B85ABFC00AFC51C /* modern_clockApp.swift in Sources */,
+				4DEF29342B85D32D00AFC51C /* ModernClock.swift in Sources */,
+				4DEF292E2B85BED300AFC51C /* HourClock.swift in Sources */,
+				4DEF29322B85D2DD00AFC51C /* MinuteClock.swift in Sources */,
+				4DEF29272B85B37600AFC51C /* ClockType.swift in Sources */,
+				4DEF29152B85ABFD00AFC51C /* ImmersiveView.swift in Sources */,
+				4DEF293B2B85D7AA00AFC51C /* NeedleShape.swift in Sources */,
+				4DEF29362B85D44400AFC51C /* AnalogClock.swift in Sources */,
+				4DEF29232B85B1BF00AFC51C /* FutureClock.swift in Sources */,
+				4DEF29252B85B1D500AFC51C /* Date+Ext.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4DEF291C2B85ABFD00AFC51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		4DEF291D2B85ABFD00AFC51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		4DEF291F2B85ABFD00AFC51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"modern-clock/Preview Content\"";
+				DEVELOPMENT_TEAM = B42SPPS3PR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bestswlkh0310.modern-clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		4DEF29202B85ABFD00AFC51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"modern-clock/Preview Content\"";
+				DEVELOPMENT_TEAM = B42SPPS3PR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bestswlkh0310.modern-clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DEF29042B85ABFC00AFC51C /* Build configuration list for PBXProject "modern-clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DEF291C2B85ABFD00AFC51C /* Debug */,
+				4DEF291D2B85ABFD00AFC51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DEF291E2B85ABFD00AFC51C /* Build configuration list for PBXNativeTarget "modern-clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DEF291F2B85ABFD00AFC51C /* Debug */,
+				4DEF29202B85ABFD00AFC51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4DEF290E2B85ABFC00AFC51C /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4DEF29012B85ABFC00AFC51C /* Project object */;
+}
